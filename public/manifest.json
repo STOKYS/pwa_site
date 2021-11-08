@@ -4,9 +4,9 @@
     "start_url":"/?home=true",
     "icons":[
         {
-            "src":"icon.jpg",
+            "src":"favicon.ico",
             "sizes":"150x150",
-            "type":"image/png",
+            "type":"image/ico",
             "purpose":"maskable any"
         }
     ],
