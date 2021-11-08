@@ -1,0 +1,17 @@
+{
+    "name":"Test",
+    "short_name":"Test_short",
+    "start_url":"/?home=true",
+    "icons":[
+        {
+            "src":"icon.jpg",
+            "sizes":"150x150",
+            "type":"image/png",
+            "purpose":"maskable any"
+        }
+    ],
+    "theme_color":"#000000",
+    "background_color":"#FFFFFF",
+    "display":"fullscreen",
+    "orientation":"portrait"
+}

@@ -1,0 +1,20 @@
+{
+    "name": "STOKY CENTRAL",
+    "version": "0.0.1",
+    "description": "Idk",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "dev": "nodemon server.js"
+    },
+    "author": "David Stoček",
+    "licence": "",
+    "dependencies": {
+      "express": "latest",
+      "moment": "latest",
+      "socket.io": "latest"
+    },
+    "devDependencies": {
+      "nodemon": "latest"
+    }
+  }
