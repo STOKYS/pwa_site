@@ -12,7 +12,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 io.on("connection", (socket) => {
 
-    socket.on("disconnect", () => {
+    /*socket.on("disconnect", () => {
         const user = userLeave(socket.id);
         if (user) {
           io.to(user.room).emit(
@@ -25,7 +25,7 @@ io.on("connection", (socket) => {
             users: getRoomUsers(user.room),
           });
         }
-      });
+      });*/
 });
 
 const PORT = process.env.PORT || 8080;
